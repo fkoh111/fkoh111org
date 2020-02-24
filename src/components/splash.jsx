@@ -4,12 +4,16 @@ import ReactTypingEffect from "react-typing-effect";
 class Splash extends Component {
   render() {
     return (
-      <ReactTypingEffect
-        className="typingeffect"
-        text={["frederik kok hansen"]}
-        speed={100}
-        eraseDelay={5000}
-      />
+      <div>
+        ><span> </span>
+        <ReactTypingEffect
+          className="typingeffect"
+          text={["frederik kok hansen"]}
+          speed={100}
+          eraseDelay={5000}
+          cursor={"_"}
+        />
+      </div>
     );
   }
 }
