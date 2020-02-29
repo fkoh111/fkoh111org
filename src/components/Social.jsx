@@ -7,6 +7,7 @@ class Social extends Component {
           href="https://github.com/fkoh111"
           title="Github | fkoh111"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <social class="fa fa-github fa-1x"></social>
         </a>
@@ -14,6 +15,7 @@ class Social extends Component {
           href="https://www.linkedin.com/in/frederik-kok-hansen/"
           title="LinkedIn | Frederik Kok Hansen"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <social class="fa fa-linkedin fa-1x"></social>
         </a>
